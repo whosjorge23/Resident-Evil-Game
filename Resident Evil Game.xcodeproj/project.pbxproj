@@ -11,6 +11,8 @@
 		CCC3784029C72B7A00113A80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3783F29C72B7A00113A80 /* ContentView.swift */; };
 		CCC3784229C72B7A00113A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC3784129C72B7A00113A80 /* Assets.xcassets */; };
 		CCC3784529C72B7A00113A80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC3784429C72B7A00113A80 /* Preview Assets.xcassets */; };
+		CCC3784C29C72B8D00113A80 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3784B29C72B8D00113A80 /* Story.swift */; };
+		CCC3784E29C72BF400113A80 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3784D29C72BF400113A80 /* StoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CCC3783F29C72B7A00113A80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CCC3784129C72B7A00113A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCC3784429C72B7A00113A80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCC3784B29C72B8D00113A80 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		CCC3784D29C72BF400113A80 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				CCC3783D29C72B7A00113A80 /* Resident_Evil_GameApp.swift */,
 				CCC3783F29C72B7A00113A80 /* ContentView.swift */,
+				CCC3784B29C72B8D00113A80 /* Story.swift */,
+				CCC3784D29C72BF400113A80 /* StoryView.swift */,
 				CCC3784129C72B7A00113A80 /* Assets.xcassets */,
 				CCC3784329C72B7A00113A80 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				CCC3784029C72B7A00113A80 /* ContentView.swift in Sources */,
 				CCC3783E29C72B7A00113A80 /* Resident_Evil_GameApp.swift in Sources */,
+				CCC3784E29C72BF400113A80 /* StoryView.swift in Sources */,
+				CCC3784C29C72B8D00113A80 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
