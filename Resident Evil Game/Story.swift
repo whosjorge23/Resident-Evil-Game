@@ -80,7 +80,12 @@ struct Story {
             title: "Game Over",
             image: "GameOver4",
             text: "You try to run away, but the zombies catch up to you and kill you. Game over.",
-            options: []
+            options: [
+                Option(
+                text: "Try Again",
+                nextChapter: 0
+                ),
+            ]
         ),
         Chapter(
             id: 5,
@@ -101,7 +106,12 @@ struct Story {
             id: 6,
             title: "Game Over", image: "GameOver4",
             text: "You wait for backup, but it never arrives. The zombies eventually find and kill you. Game over.",
-            options: []
+            options: [
+                Option(
+                text: "Try Again",
+                nextChapter: 0
+                ),
+            ]
         ),
         Chapter(
             id: 7,
@@ -122,31 +132,56 @@ struct Story {
             id: 8,
             title: "Game Over", image: "GameOver4",
             text: "You save the ammunition, but you eventually run out and the zombies overwhelm you. Game over.",
-            options: []
+            options: [
+                Option(
+                text: "Try Again",
+                nextChapter: 0
+                ),
+            ]
         ),
         Chapter(
             id: 9,
             title: "The End?", image: "GameOver4",
             text: "You fight the Tyrant, but it seems unstoppable. Just when all seems lost, a familiar face appears and helps you defeat it. Congratulations, you've beaten the game!",
-            options: []
+            options: [
+                Option(
+                text: "Try Again",
+                nextChapter: 0
+                ),
+            ]
         ),
         Chapter(
             id: 10,
             title: "Game Over", image: "GameOver4",
             text: "You try to run away, but the Tyrant catches up to you and kills you. Game over.",
-            options: []
+            options: [
+                Option(
+                text: "Try Again",
+                nextChapter: 0
+                ),
+            ]
         ),
         Chapter(
             id: 11,
             title: "The True End", image: "GameOver4",
             text: "You fight the final boss and emerge victorious. You call for backup and help arrives to clean up the mess. Congratulations, you've beaten the game!",
-            options: []
+            options: [
+                Option(
+                text: "Try Again",
+                nextChapter: 0
+                ),
+            ]
         ),
         Chapter(
             id: 12,
             title: "The Bad End", image: "GameOver4",
             text: "You try to escape, but the final boss catches up to you and kills you. The outbreak continues unchecked and the world is doomed. Game over.",
-            options: []
+            options: [
+                Option(
+                text: "Try Again",
+                nextChapter: 0
+                ),
+            ]
         )
     ]
     
