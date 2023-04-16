@@ -89,7 +89,7 @@ struct Story {
         ),
         Chapter(
             id: 5,
-            title: "The Tyrant", image: "GameOver4",
+            title: "The Tyrant", image: "TheTyrant5",
             text: "You investigate the crash site and find a Tyrant. It is a huge, powerful creature that seems to be invulnerable. What do you do?",
             options: [
                 Option(
@@ -115,7 +115,7 @@ struct Story {
         ),
         Chapter(
             id: 7,
-            title: "The Final Battle", image: "GameOver4",
+            title: "The Final Battle", image: "TheFinalBattle7",
             text: "You use the first aid spray and continue your investigation. Eventually, you discover the source of the outbreak and face the final boss. Can you defeat it?",
             options: [
                 Option(
@@ -141,7 +141,7 @@ struct Story {
         ),
         Chapter(
             id: 9,
-            title: "The End?", image: "GameOver4",
+            title: "The End?", image: "The End?9",
             text: "You fight the Tyrant, but it seems unstoppable. Just when all seems lost, a familiar face appears and helps you defeat it. Congratulations, you've beaten the game!",
             options: [
                 Option(
